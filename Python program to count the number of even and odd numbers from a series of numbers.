@@ -1,0 +1,15 @@
+ODD=0
+EVEN=0
+
+for i in range(1,731):
+    if i%2==0:
+        EVEN+=1
+    else:
+        ODD+=1
+print("Don't Go Outside: ", ODD)
+print("Don't stay inside: ", EVEN)
+
+O/P:
+
+Don't Go Outside:  365
+Don't stay inside:  365
