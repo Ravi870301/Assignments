@@ -1,0 +1,7 @@
+A=input("Reverse of: ")
+print(A[::-1])
+
+Output:
+
+Reverse of: KE KILAAM AKBAS
+SABKA MAALIK EK
