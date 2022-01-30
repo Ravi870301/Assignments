@@ -1,0 +1,17 @@
+def UL(str):
+    uc=0
+    lc=0
+    for i in str:
+        if i.isupper():
+            uc+=1
+        else:
+            lc+=1
+    print('No. of upper case: ',uc)
+    print('No. of lower cass: ',lc)
+    
+UL('I want to become DATA SCIENTIST')    
+
+Out: 
+No. of upper case:  14
+No. of lower cass:  17
+    
