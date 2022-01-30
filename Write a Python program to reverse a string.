@@ -1,0 +1,7 @@
+def reverse(str):
+    print(str[::-1])
+    
+reverse('Python functions')
+
+Out: 
+snoitcnuf nohtyP
